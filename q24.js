@@ -4,7 +4,7 @@ create a  folder mongoreplica
 
 inside create 3 new folders
 data1, data2, and data3
-tart mongod -replSet rs1 -logpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data1\1.log --dbpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data1\ --port 27018
+start mongod -replSet rs1 -logpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data1\1.log --dbpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data1\ --port 27018
 
 
 start mongod -replSet rs1 -logpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data2\2.log --dbpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data2\ --port 27019
@@ -42,3 +42,6 @@ rs.shutdownServer()
 
 automatically 27019 or 27020 will become primary
 login using mongosh
+
+to start 27018
+start mongod -replSet rs1 -logpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data1\1.log --dbpath C:\Users\alava\OneDrive\Desktop\mongoreplica\data1\ --port 27018
