@@ -14,4 +14,3 @@ mongorestore -d mydb d:/bck/mydb
 
 
 
-mongorestore
